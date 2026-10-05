@@ -1,0 +1,13 @@
+{
+  "name": "prompt-enhancer",
+  "owner": { "name": "aztechead" },
+  "metadata": { "description": "Prompt clarification skill for Claude Code." },
+  "plugins": [
+    {
+      "name": "prompt-enhancer",
+      "source": "./plugins/prompt-enhancer",
+      "description": "Clarifies a raw request before it goes to Claude: passes clear prompts through, gathers scattered constraints, never adds requirements.",
+      "version": "1.0.0"
+    }
+  ]
+}
